@@ -1,4 +1,4 @@
-# PneumoVision
+# PNEUMO VISION
 
 # PROBLEM STATEMENT 
 Pneumonia is a serious and often life-threatening respiratory illness that affects millions of people 
