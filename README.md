@@ -1,5 +1,36 @@
 # PNEUMO VISION
 
+# ABSTRACT 
+Pneumonia is a significant respiratory infection that affects millions worldwide, often leading to 
+severe complications if not diagnosed and treated promptly. Traditional diagnostic methods rely 
+heavily on the expertise of radiologists, which can be both time-consuming and prone to human 
+error. 
+
+‘PneumoVision’ is an innovative project aims to address these limitations by developing an 
+advanced deep learning algorithms and deploying it via an accessible online platform to streamline 
+the automated detection of pneumonia from chest X-ray images.
+
+The primary objective of PneumoVision is to create a highly accurate and efficient system for 
+pneumonia detection, leveraging state-of-the-art deep learning techniques. This project utilizes a 
+comprehensive dataset of annotated chest X-rays to train and validate the CNN model, ensuring 
+robust performance across diverse patient demographics and varying image quality. Key 
+innovations include sophisticated data preprocessing methods, such as image normalization and 
+augmentation, and the implementation of a well-optimized CNN architecture tailored specifically 
+for pneumonia detection.
+
+A critical component of the project is the development of an intuitive web-based interface that 
+allows healthcare professionals as well as normal people to upload X-ray images and receive 
+diagnostic results in real-time. This platform is designed to be user-friendly, secure, and scalable, 
+ensuring broad accessibility and integration into existing clinical workflows. This approach assists 
+physicians in determining whether the patient has pneumonia or not. Early detection helps in early 
+diagnosis.  
+
+Key Words: Chest X-ray, Deep Learning, CNN, Datasets 
+
+Dataset - https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
+
+![image](https://github.com/user-attachments/assets/11a985a2-7cd0-432d-bed4-10e2689eb019)
+
 # PROBLEM STATEMENT 
 Pneumonia is a serious and often life-threatening respiratory illness that affects millions of people 
 worldwide. It is caused by a variety of pathogens, including bacteria, viruses, and fungi, which can 
