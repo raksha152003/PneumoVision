@@ -40,7 +40,7 @@ Each Algorithm is undertaken for accuracy purposes, the one with the best accura
 precise prediction will be taken into account as a model. 
  
  OBJECTIVES 
-The main Objectives of this project ‘PneumoVision’ are: 
+ The main Objectives of this project ‘PneumoVision’ are: 
 1. Fast and Reliable Results using Deep Learning. 
 2. Web Page for User Convenience. 
 3. Time-Saving and Cost Reliable.
@@ -85,3 +85,4 @@ PneumoVision can be implemented in many algorithms of Deep Learning. So, we have
 some of the algorithms and started to implement each one in a separate environment to test their 
 efficiency, time consumption, and accuracy results. There are 5 Algorithms we initially used here: 
 CNN, ResNet , DenseNet , GoogLeNet , VGG.
+
