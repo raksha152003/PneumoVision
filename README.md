@@ -86,5 +86,97 @@ some of the algorithms and started to implement each one in a separate environme
 efficiency, time consumption, and accuracy results. There are 5 Algorithms we initially used here: 
 CNN, ResNet , DenseNet , GoogLeNet , VGG.
 
+CNN ALGORITHM  
+CNNs have been popular due to their improved performance in image classification. The 
+convolutional layers in the network along with filters help in extracting the spatial and temporal 
+features in an image. The layers have a weight-sharing technique, which helps in reducing 
+computation efforts. Architecture-wise, CNNs are simply feedforwarded artificial neural networks 
+(ANNs) with two constraints: neurons in the same filter are only connected to local patches of the 
+image to preserve the spatial structure and their weights are shared to reduce the total number of 
+the model’s parameters. A CNN consists of three building blocks: (i) a convolution layer to learn 
+features, (ii) a max-pooling (subsampling) layer is to down sample the image and reduce the 
+dimensionality and thereby reduction in computational efforts, and (iii) a fully connected layer to 
+equip the network with classification capabilities
+
+RESNET ALGORITHM  
+ResNet, which is a short form of Residual Network, was originally developed for two problems, 
+such as the vanishing gradient and degradation problem. Residual learning tries to solve both these 
+problems. ResNet has three different variants: ResNet18, ResNet50, and ResNet101 based on the 
+number of layers in the residual network. ResNet was successfully used in biomedical image 
+classification for transfer learning. In this paper, we have used ResNet18 for pneumonia detection. 
+Typically, deep neural network layers learn low- or high-level features during training, while 
+ResNet learns residuals instead of features.
+
+DENSENET ALGORITHM  
+DenseNet, which is a short form of the Dense Convolutional Network, needs fewer numbers of 
+parameters than a conventional CNN, as it does not learn redundant feature maps. The layers in 
+DenseNet are very narrow, i.e., 12 filters, which add a lesser set of new feature maps. DenseNet 
+has four different variants: DenseNet121, DenseNet169, DenseNet201, and DenseNet264. In this 
+paper, we have used DenseNet121 for pneumonia detection. Each layer in DenseNet has direct 
+access to the original input image and gradients from the loss function. Therefore, the 
+computational cost is significantly reduced, which makes DenseNet a better choice for image 
+classification.
+
+GOOGLENET ALGORITHM  
+The GoogLeNet architecture is a 22-layer deep network consisting of “inception modules,” instead 
+of uniformly progressive layers. An inception block accommodates a large number of units at each 
+stage by hosting parallel convolution and pooling layers, resulting in an uncontrolled 
+computational complexity because of the increased number of parameters. To control the 
+computational complexity, the GoogLeNet model uses inception blocks with dimension reduction, 
+rather than the naive inception. The performance of GoogLeNet, in which the inception block was 
+introduced, proves that an optimal sparse architecture built from the available dense building 
+blocks improves the performance of artificial neural networks for computer vision tasks.
+
+VGG ALGORITHM  
+Presented in 2014, VGG16 has a very simple and classical architecture, with blocks of 2 or 3 
+convolutional layers followed by a pooling layer, plus a final dense network composed of 2 hidden 
+layers (of 4096 nodes each) and one output layer (of 1000 nodes). Only 3x3 filters are used.
+
+# LIBRARIES USED 
+NUMPY: A fundamental library for scientific computing in Python. It provides efficient arrays 
+and mathematical operations crucial for manipulating image data and performing calculations 
+within the CNN model. 
+
+OPENCV (CV2): A library for computer vision tasks, including image processing and 
+analysis. It might be used for image pre-processing steps like resizing and normalization before 
+feeding them into the CNN model. 
+
+KERAS: A high-level deep learning API built on top of libraries like TensorFlow. Keras 
+simplifies the process of building, training, and evaluating deep learning models. 
+
+MATPLOTLIB: A library for creating static, publication-quality visualizations. It might be 
+used to visualize the training process of the CNN model, such as plotting loss curves and 
+accuracy metrics.
+
+TENSORFLOW: A powerful open-source library for numerical computation and large-scale 
+machine learning. It provides the core building blocks for creating and training deep learning 
+models like the CNN for pneumonia detection.
+
+# FLOWCHART
+
 <img width="248" alt="Screenshot 2024-07-18 110527" src="https://github.com/user-attachments/assets/f663cfc4-7cf4-4d7d-b8fc-c378d7a4ef06" />
+
+# RESULTS
+
+The Ultimate aim and motto of this project ‘PneumoVision’ is to bring awareness among the people that pneumonia can be predicted earlier and can be cured with certain preventive measures. So that we have used different algorithms to test their efficiency, throughput, and their accuracy percentage. CNN, ResNet, DenseNet, VGG and Inception Net Algorithms are widely used in Deep Learning Domain to predict numerous numbers of diseases. We have trained the dataset using 5 different types of algorithms with 5 different accuracy results.
+ 
+CNN Algorithm: In this Algorithm, the prediction efficiency was around 78.53%. 
+ResNet Algorithm: In this Algorithm, the prediction efficiency was around 62.82%. 
+DenseNet Algorithm: In this Algorithm, the prediction efficiency was around 62.82%. 
+VGG Algorithm: In this Algorithm, the prediction efficiency was around 67.31%. 
+Inception Net Algorithm: In this Algorithm, the prediction efficiency was around 70.99%.
+
+Now, by comparing all these algorithms, CNN Algorithm has the best prediction percentage among the four algorithms. Thus, the CNN algorithm was implemented in the web page.
+
+
+	1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 67ms/step
+       PNEUMONIA
+
+![image](https://github.com/user-attachments/assets/178446db-a1ea-4316-9b59-d7cc489f8f34)
+
+
+ 1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 82ms/step
+        NORMAL
+
+![image](https://github.com/user-attachments/assets/ee1a00e2-5682-45fe-bb90-656a26b385b0)
 
