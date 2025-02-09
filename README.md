@@ -86,3 +86,5 @@ some of the algorithms and started to implement each one in a separate environme
 efficiency, time consumption, and accuracy results. There are 5 Algorithms we initially used here: 
 CNN, ResNet , DenseNet , GoogLeNet , VGG.
 
+<img width="248" alt="Screenshot 2024-07-18 110527" src="https://github.com/user-attachments/assets/f663cfc4-7cf4-4d7d-b8fc-c378d7a4ef06" />
+
