@@ -175,8 +175,22 @@ Now, by comparing all these algorithms, CNN Algorithm has the best prediction pe
 ![image](https://github.com/user-attachments/assets/178446db-a1ea-4316-9b59-d7cc489f8f34)
 
 
- 1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 82ms/step
-        NORMAL
+      1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 82ms/step
+NORMAL
 
 ![image](https://github.com/user-attachments/assets/ee1a00e2-5682-45fe-bb90-656a26b385b0)
+
+
+
+![image](https://github.com/user-attachments/assets/11a985a2-7cd0-432d-bed4-10e2689eb019)
+
+# CONCLUSION 
+•	This project primarily focuses on detecting pneumonia with a given attribute in a span of time. This system will be useful for physicians to have an overall idea of the patient. 
+•	The result will be either classified as pneumonia present or not. So that preventive measures will be given to the patients of pneumonia affected.
+•	Our Project used Deep Learning Techniques for the prediction. In Deep Learning, CNN Algorithm is chosen and given priority over other algorithms and implemented in the model. 
+•	Building such types of systems will be enormously helpful to patients, doctors, and hospitals. Since the system predicts these diseases at a very early stage, doctors can prescribe the medicines to prevent them permanently at the early stage thereby reducing the pneumonia mortality rate. 
+•	In conclusion, PneumoVision represents a significant leap forward in the application of deep learning to medical diagnostics. By offering an automated, reliable, and fast pneumonia detection system, it holds the potential to improve patient care and outcomes significantly. 
+•	The project's success underscores the importance of continued research and innovation in leveraging artificial intelligence to address critical healthcare challenges. 
+
+
 
